@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Main3Activity">
+
+<EditText
+    android:id="@+id/ed4"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="32dp"
+    android:ems="10"
+    android:hint="Name"
+    android:inputType="textPersonName"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<EditText
+    android:id="@+id/ed5"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:ems="10"
+    android:hint="Email"
+    android:inputType="textEmailAddress"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/ed4" />
+
+<EditText
+    android:id="@+id/ed6"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:ems="10"
+    android:hint="phone"
+    android:inputType="textPersonName"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/ed5" />
+
+<EditText
+    android:id="@+id/pwd"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:ems="10"
+    android:hint="password"
+    android:inputType="textPassword"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/ed6" />
+
+<Button
+    android:id="@+id/btn3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:onClick="register"
+    android:text="Register"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/pwd" />
+
+<Button
+    android:id="@+id/btn4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="159dp"
+    android:layout_marginLeft="159dp"
+    android:layout_marginTop="50dp"
+    android:text="Cancel"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toEndOf="@+id/btn3"
+    app:layout_constraintTop_toBottomOf="@+id/pwd" />
+
+<TextView
+    android:id="@+id/tv1"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/ed4" />
+
+<TextView
+    android:id="@+id/tv2"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/ed5" />
+
+</android.support.constraint.ConstraintLayout>
